@@ -12,8 +12,6 @@ I build things end to end: data pipelines and models, cloud backends, and the ap
 | 📱 **[WHIT](https://github.com/tttamannaanand/WHIT)** | A skill a day, five minutes at a time. Expo + TypeScript app with RevenueCat subscriptions and a server-enforced paywall (Shipaton 2026) | [Demo](https://tttamannaanand.github.io/WHIT/) |
 | 🎨 **[Tinta](https://github.com/tttamannaanand/Tinta)** | Type a mood, get a colour palette, generative art, a Spotify tracklist and a moodboard | [Source](https://github.com/tttamannaanand/Tinta) |
 
-Every project above has tests and CI.
-
 #### Tools I reach for
 
 **Languages:** Python · TypeScript · JavaScript · C++
