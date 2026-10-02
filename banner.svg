@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <rect width="900" height="220" fill="#000"/>
+  <g stroke="#fff" stroke-opacity=".12">
+    <path d="M0 40h900M0 180h900M60 0v220M840 0v220"/>
+  </g>
+  <g fill="#fff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="60" y="30" font-size="13" letter-spacing="4" fill-opacity=".55">★ BENGALURU ★ BUILDS END TO END ★</text>
+    <text x="60" y="118" font-size="64" font-weight="800" letter-spacing="-2">TAMANNA ANAND</text>
+    <text x="62" y="158" font-size="20" letter-spacing="6">DO YOUR WORST.</text>
+    <text x="840" y="205" font-size="13" text-anchor="end" fill-opacity=".55">data · cloud · apps · 3d</text>
+    <text x="805" y="118" font-size="44">✦</text>
+  </g>
+</svg>
