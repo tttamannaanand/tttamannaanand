@@ -19,7 +19,7 @@
 |:--|:--|:--|
 | ★ **[SCOUTLINE](https://github.com/tttamannaanand/ScoutLine)** | from-scratch xG model on 38k real shots. pass networks. finds the bargains scouts miss. | **[→ live](https://scout-line.vercel.app)** |
 | ★ **[LOTWISE](https://github.com/tttamannaanand/Lotwise-AWS)** | indian capital gains from any broker's mess of a CSV. FIFO lots, FY tax rules, AI that never touches the maths. | **[→ live](https://7rml52kocf.execute-api.us-east-1.amazonaws.com)** |
-| ★ **[LUNG RISK CHECK](https://github.com/tttamannaanand/lungrisk)** | lung cancer risk from a validated model. matches the reference implementation on 500 people to 15 decimal places. shows where US and UK screening rules disagree. | **[→ check yours](https://tttamannaanand.github.io/lungrisk/)** |
+| ★ **[LUNG RISK CHECK](https://github.com/tttamannaanand/lungrisk)** | lung cancer risk from a validated model. matches the reference implementation on 500 people to 15 decimal places. shows where US and UK screening rules disagree. plus: india's air, live, in cigarettes per day. | **[→ check yours](https://tttamannaanand.github.io/lungrisk/)** |
 | ★ **[LUMIDO](https://github.com/tttamannaanand/Lumido)** | 200 drone photos in. 25 million 3D points out. own matching, own stereo, own fusion. | **[→ spin it](https://tttamannaanand.github.io/Lumido/)** |
 | ★ **[WHIT](https://github.com/tttamannaanand/WHIT)** | five minutes a day. paywall enforced server-side, because clients lie. | **[→ demo](https://tttamannaanand.github.io/WHIT/)** |
 | ★ **[TINTA](https://github.com/tttamannaanand/Tinta)** | type a mood. get its colours, its art, its soundtrack. | **[→ source](https://github.com/tttamannaanand/Tinta)** |
