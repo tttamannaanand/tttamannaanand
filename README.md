@@ -45,8 +45,8 @@
 ## ✦ NOW
 
 ```
-> kvlite does 68k writes/s, or 350/s if you want it to survive a power cut.
-> next: group commit, so you don't have to choose.
+> kvlite: 350 durable writes/s was embarrassing. group commit made it 2,100.
+> one fsync, many writers. still survives kill -9.
 ```
 
 <p align="center">☆ ☆ ☆</p>
