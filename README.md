@@ -22,6 +22,7 @@
 | ★ **[LUMIDO](https://github.com/tttamannaanand/Lumido)** | 200 drone photos in. 25 million 3D points out. own matching, own stereo, own fusion. | **[→ spin it](https://tttamannaanand.github.io/Lumido/)** |
 | ★ **[WHIT](https://github.com/tttamannaanand/WHIT)** | five minutes a day. paywall enforced server-side, because clients lie. | **[→ demo](https://tttamannaanand.github.io/WHIT/)** |
 | ★ **[TINTA](https://github.com/tttamannaanand/Tinta)** | type a mood. get its colours, its art, its soundtrack. | **[→ source](https://github.com/tttamannaanand/Tinta)** |
+| ★ **[KVLITE](https://github.com/tttamannaanand/kvlite)** | key-value store over TCP in rust. zero deps. kill -9 it mid-write; the data's still there. | **[→ source](https://github.com/tttamannaanand/kvlite)** |
 
 ## ✦ THE KIT
 
@@ -44,8 +45,8 @@
 ## ✦ NOW
 
 ```
-> learning rust the hard way: kvlite, a key-value store over TCP with a write-ahead log.
-> it will crash. it will recover. that's the point.
+> kvlite does 68k writes/s, or 350/s if you want it to survive a power cut.
+> next: group commit, so you don't have to choose.
 ```
 
 <p align="center">☆ ☆ ☆</p>
