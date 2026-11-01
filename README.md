@@ -23,6 +23,7 @@
 | ★ **[LUMIDO](https://github.com/tttamannaanand/Lumido)** | 200 drone photos in. 25 million 3D points out. own matching, own stereo, own fusion. | **[→ spin it](https://tttamannaanand.github.io/Lumido/)** |
 | ★ **[WHIT](https://github.com/tttamannaanand/WHIT)** | five minutes a day. paywall enforced server-side, because clients lie. | **[→ demo](https://tttamannaanand.github.io/WHIT/)** |
 | ★ **[TINTA](https://github.com/tttamannaanand/Tinta)** | type a mood. get its colours, its art, its soundtrack. | **[→ source](https://github.com/tttamannaanand/Tinta)** |
+| ★ **[WARD ZERO](https://github.com/tttamannaanand/wardzero)** | ransomware loose in a hospital network. ATT&CK-tagged, 300 seeded runs. locking down admin accounts cuts ambulance diversion from 285 h to 15. | **[→ replay](https://tttamannaanand.github.io/wardzero/)** |
 | ★ **[KVLITE](https://github.com/tttamannaanand/kvlite)** | key-value store in rust, now a raft cluster. kill -9 the leader; nothing's lost. a jepsen-style simulator catches the raft paper's figure-8 bug. | **[→ source](https://github.com/tttamannaanand/kvlite)** |
 
 ## ✦ THE KIT
