@@ -23,7 +23,7 @@
 | ★ **[LUMIDO](https://github.com/tttamannaanand/Lumido)** | 200 drone photos in. 25 million 3D points out. own matching, own stereo, own fusion. | **[→ spin it](https://tttamannaanand.github.io/Lumido/)** |
 | ★ **[WHIT](https://github.com/tttamannaanand/WHIT)** | five minutes a day. paywall enforced server-side, because clients lie. | **[→ demo](https://tttamannaanand.github.io/WHIT/)** |
 | ★ **[TINTA](https://github.com/tttamannaanand/Tinta)** | type a mood. get its colours, its art, its soundtrack. | **[→ source](https://github.com/tttamannaanand/Tinta)** |
-| ★ **[KVLITE](https://github.com/tttamannaanand/kvlite)** | key-value store over TCP in rust. zero deps. kill -9 it mid-write; the data's still there. | **[→ source](https://github.com/tttamannaanand/kvlite)** |
+| ★ **[KVLITE](https://github.com/tttamannaanand/kvlite)** | key-value store in rust, now a raft cluster. kill -9 the leader; nothing's lost. a jepsen-style simulator catches the raft paper's figure-8 bug. | **[→ source](https://github.com/tttamannaanand/kvlite)** |
 
 ## ✦ THE KIT
 
