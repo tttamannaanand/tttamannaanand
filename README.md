@@ -27,6 +27,7 @@
 | ★ **[WARD ZERO](https://github.com/tttamannaanand/wardzero)** | ransomware loose in a hospital network. ATT&CK-tagged, 300 seeded runs. locking down admin accounts cuts ambulance diversion from 285 h to 15. | **[→ replay](https://tttamannaanand.github.io/wardzero/)** |
 | ★ **[KVLITE](https://github.com/tttamannaanand/kvlite)** | key-value store in rust, now a raft cluster. kill -9 the leader; nothing's lost. a jepsen-style simulator catches the raft paper's figure-8 bug. | **[→ source](https://github.com/tttamannaanand/kvlite)** |
 | ★ **[QUARTET](https://github.com/tttamannaanand/quartet)** | four quant models from scratch on real data. fama-french, regime switching, longstaff-schwartz, heston. cheating with hindsight makes 16.3% a year; honestly, 7.5%. | **[→ read it](https://tttamannaanand.github.io/quartet/)** |
+| ★ **[PIXEL PETS](https://github.com/tttamannaanand/pixelpets)** | my cats thea and ivan and my dog kai, as pixel pets that live under my menu bar. they watch the cursor, nap when i'm away, and kai chases the cats. | **[→ adopt them](https://github.com/tttamannaanand/pixelpets)** |
 | ★ **[GODMODE](https://github.com/tttamannaanand/godmode)** | cheat codes for students. paid open source, funded research abroad, weird competitions. | **[→ unlock](https://github.com/tttamannaanand/godmode)** |
 | ★ **[STASH](https://github.com/tttamannaanand/stash)** | 398 free design resources. icons, lottie, overlays, pixel art, fonts. every licence labelled. | **[→ raid it](https://github.com/tttamannaanand/stash)** |
 
@@ -68,6 +69,7 @@ apps · web · games
 <img src="https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=white">
 <img src="https://img.shields.io/badge/SQLite-000?style=flat-square&logo=sqlite&logoColor=white">
 <img src="https://img.shields.io/badge/RevenueCat-000?style=flat-square&logo=revenuecat&logoColor=white">
+<img src="https://img.shields.io/badge/Swift-000?style=flat-square&logo=swift&logoColor=white">
 <img src="https://img.shields.io/badge/Unity-000?style=flat-square&logo=unity&logoColor=white">
 <img src="https://img.shields.io/badge/Blender-000?style=flat-square&logo=blender&logoColor=white">
 <img src="https://img.shields.io/badge/Figma-000?style=flat-square&logo=figma&logoColor=white">
