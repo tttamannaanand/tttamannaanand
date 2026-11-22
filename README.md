@@ -18,20 +18,20 @@
 
 | | | |
 |:--|:--|:--|
-| ★ **[SCOUTLINE](https://github.com/tttamannaanand/ScoutLine)** | from-scratch xG model on 38k real shots. pass networks. finds the bargains scouts miss. | **[→ live](https://scout-line.vercel.app)** |
-| ★ **[LOTWISE](https://github.com/tttamannaanand/Lotwise-AWS)** | indian capital gains from any broker's mess of a CSV. FIFO lots, FY tax rules, AI that never touches the maths. | **[→ live](https://7rml52kocf.execute-api.us-east-1.amazonaws.com)** |
-| ★ **[LUNG RISK CHECK](https://github.com/tttamannaanand/lungrisk)** | lung cancer risk from a validated model. matches the reference implementation on 500 people to 15 decimal places. shows where US and UK screening rules disagree. plus: india's air, live, in cigarettes per day. | **[→ check yours](https://tttamannaanand.github.io/lungrisk/)** |
-| ★ **[LUMIDO](https://github.com/tttamannaanand/Lumido)** | 200 drone photos in. 25 million 3D points out. own matching, own stereo, own fusion. | **[→ spin it](https://tttamannaanand.github.io/Lumido/)** |
-| ★ **[WHIT](https://github.com/tttamannaanand/WHIT)** | five minutes a day. paywall enforced server-side, because clients lie. | **[→ demo](https://tttamannaanand.github.io/WHIT/)** |
-| ★ **[TINTA](https://github.com/tttamannaanand/Tinta)** | type a mood. get its colours, its art, its soundtrack. | **[→ source](https://github.com/tttamannaanand/Tinta)** |
-| ★ **[WARD ZERO](https://github.com/tttamannaanand/wardzero)** | ransomware loose in a hospital network. ATT&CK-tagged, 300 seeded runs. locking down admin accounts cuts ambulance diversion from 285 h to 15. | **[→ replay](https://tttamannaanand.github.io/wardzero/)** |
-| ★ **[KVLITE](https://github.com/tttamannaanand/kvlite)** | key-value store in rust, now a raft cluster. kill -9 the leader; nothing's lost. a jepsen-style simulator catches the raft paper's figure-8 bug. | **[→ source](https://github.com/tttamannaanand/kvlite)** |
-| ★ **[QUARTET](https://github.com/tttamannaanand/quartet)** | four quant models from scratch on real data. fama-french, regime switching, longstaff-schwartz, heston. cheating with hindsight makes 16.3% a year; honestly, 7.5%. | **[→ read it](https://tttamannaanand.github.io/quartet/)** |
-| ★ **[SKYWATCH](https://tttamannaanand.github.io/skywatch/)** | nasa's picture of the day, every planet moving live, the weather on each one, asteroid flybys, and an exoplanet hunter that found 12/12 known planets in real tess data. | **[→ look up](https://tttamannaanand.github.io/skywatch/)** |
-| ★ **[GHOST TABS](https://github.com/tttamannaanand/ghosttabs)** | a chrome extension where tabs you ignore slowly fade, then turn into ghosts you can bring back from the graveyard. | **[→ haunt your browser](https://github.com/tttamannaanand/ghosttabs)** |
-| ★ **[PIXEL PETS](https://github.com/tttamannaanand/pixelpets)** | my cats thea and ivan and my dog kai, as pixel pets that live under my menu bar. they watch the cursor, nap when i'm away, and kai chases the cats. | **[→ adopt them](https://github.com/tttamannaanand/pixelpets)** |
-| ★ **[GODMODE](https://github.com/tttamannaanand/godmode)** | cheat codes for students. paid open source, funded research abroad, weird competitions. | **[→ unlock](https://github.com/tttamannaanand/godmode)** |
-| ★ **[STASH](https://github.com/tttamannaanand/stash)** | 398 free design resources. icons, lottie, overlays, pixel art, fonts. every licence labelled. | **[→ raid it](https://github.com/tttamannaanand/stash)** |
+| ★&nbsp;**[SCOUTLINE](https://github.com/tttamannaanand/ScoutLine)** | xG model on 38k real shots. finds the bargains scouts miss. | **[→&nbsp;live](https://scout-line.vercel.app)** |
+| ★&nbsp;**[LOTWISE](https://github.com/tttamannaanand/Lotwise-AWS)** | indian capital gains from any broker's messy CSV. | **[→&nbsp;live](https://7rml52kocf.execute-api.us-east-1.amazonaws.com)** |
+| ★&nbsp;**[LUNG&nbsp;RISK](https://github.com/tttamannaanand/lungrisk)** | validated lung cancer risk model + india's air in cigarettes/day. | **[→&nbsp;check](https://tttamannaanand.github.io/lungrisk/)** |
+| ★&nbsp;**[LUMIDO](https://github.com/tttamannaanand/Lumido)** | 200 drone photos in, 25 million 3D points out. | **[→&nbsp;spin](https://tttamannaanand.github.io/Lumido/)** |
+| ★&nbsp;**[WHIT](https://github.com/tttamannaanand/WHIT)** | five minutes a day. paywall enforced server-side. | **[→&nbsp;demo](https://tttamannaanand.github.io/WHIT/)** |
+| ★&nbsp;**[TINTA](https://github.com/tttamannaanand/Tinta)** | type a mood, get its colours, art and soundtrack. | **[→&nbsp;code](https://github.com/tttamannaanand/Tinta)** |
+| ★&nbsp;**[WARD&nbsp;ZERO](https://github.com/tttamannaanand/wardzero)** | ransomware loose in a hospital network, 300 seeded runs. | **[→&nbsp;replay](https://tttamannaanand.github.io/wardzero/)** |
+| ★&nbsp;**[KVLITE](https://github.com/tttamannaanand/kvlite)** | raft key-value store in rust. kill -9 the leader, lose nothing. | **[→&nbsp;code](https://github.com/tttamannaanand/kvlite)** |
+| ★&nbsp;**[QUARTET](https://github.com/tttamannaanand/quartet)** | four quant models from scratch on real market data. | **[→&nbsp;read](https://tttamannaanand.github.io/quartet/)** |
+| ★&nbsp;**[SKYWATCH](https://github.com/tttamannaanand/skywatch)** | nasa daily, live planets, asteroid flybys, exoplanet hunter. | **[→&nbsp;look](https://tttamannaanand.github.io/skywatch/)** |
+| ★&nbsp;**[GHOST&nbsp;TABS](https://github.com/tttamannaanand/ghosttabs)** | chrome extension. ignored tabs fade into ghosts. | **[→&nbsp;haunt](https://github.com/tttamannaanand/ghosttabs)** |
+| ★&nbsp;**[PIXEL&nbsp;PETS](https://github.com/tttamannaanand/pixelpets)** | my two cats and dog, living on top of my screen. | **[→&nbsp;adopt](https://github.com/tttamannaanand/pixelpets)** |
+| ★&nbsp;**[GODMODE](https://github.com/tttamannaanand/godmode)** | cheat codes for students: paid open source, funded research. | **[→&nbsp;unlock](https://github.com/tttamannaanand/godmode)** |
+| ★&nbsp;**[STASH](https://github.com/tttamannaanand/stash)** | 398 free design resources, every licence labelled. | **[→&nbsp;raid](https://github.com/tttamannaanand/stash)** |
 
 ## ✦ THE KIT
 
