@@ -1,16 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
 <defs>
-<filter id="liquid" x="0" y="0" width="100%" height="100%">
-  <feTurbulence type="fractalNoise" baseFrequency="0.0035 0.006" numOctaves="3" seed="7" result="n">
-    <animate attributeName="baseFrequency" dur="24s" values="0.0035 0.006;0.005 0.0045;0.0035 0.006" repeatCount="indefinite"/>
+<filter id="liquid" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency="0.0032 0.0055" numOctaves="2" seed="7" result="n">
+    <animate attributeName="baseFrequency" dur="20s" values="0.0032 0.0055;0.0048 0.004;0.0032 0.0055" repeatCount="indefinite"/>
   </feTurbulence>
-  <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  9 0 0 0 -4.1" result="blobs"/>
-  <feTurbulence type="turbulence" baseFrequency="0.012" numOctaves="2" seed="3" result="w">
-    <animate attributeName="seed" dur="12s" values="1;2;3;4;5;6;7;8;9;10" repeatCount="indefinite"/>
+  <feTurbulence type="turbulence" baseFrequency="0.01" numOctaves="1" seed="3" result="w">
+    <animate attributeName="baseFrequency" dur="11s" values="0.01;0.014;0.01" repeatCount="indefinite"/>
   </feTurbulence>
-  <feDisplacementMap in="blobs" in2="w" scale="34" xChannelSelector="R" yChannelSelector="G" result="d"/>
-  <feGaussianBlur in="d" stdDeviation="5" result="b"/>
-  <feColorMatrix in="b" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 22 -10"/>
+  <feDisplacementMap in="n" in2="w" scale="40" xChannelSelector="R" yChannelSelector="G" result="d"/>
+  <feColorMatrix in="d" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  7 0 0 0 -3.2" result="blob"/>
+  <feGaussianBlur in="blob" stdDeviation="9" result="h"/>
+  <feSpecularLighting in="h" surfaceScale="9" specularConstant=".9" specularExponent="38" lighting-color="#6e6e6e" result="spec">
+    <fePointLight x="300" y="-200" z="260">
+      <animate attributeName="x" values="200;1000;200" dur="16s" repeatCount="indefinite"/>
+    </fePointLight>
+  </feSpecularLighting>
+  <feComposite in="spec" in2="blob" operator="in" result="shine"/>
+  <feDiffuseLighting in="h" surfaceScale="5" diffuseConstant="1" lighting-color="#161616" result="body">
+    <feDistantLight azimuth="235" elevation="40"/>
+  </feDiffuseLighting>
+  <feComposite in="body" in2="blob" operator="in" result="bodyIn"/>
+  <feMorphology in="blob" operator="erode" radius="2" result="er"/>
+  <feComposite in="blob" in2="er" operator="out" result="edge"/>
+  <feFlood flood-color="#3a3a3a" result="ec"/>
+  <feComposite in="ec" in2="edge" operator="in" result="rim"/>
+  <feMerge><feMergeNode in="bodyIn"/><feMergeNode in="shine"/><feMergeNode in="rim"/></feMerge>
 </filter>
 <filter id="drift" x="-10%" y="-10%" width="120%" height="120%">
   <feTurbulence type="fractalNoise" baseFrequency="0.008 0.02" numOctaves="2" seed="11" result="t">
@@ -18,32 +32,32 @@
   </feTurbulence>
   <feDisplacementMap in="SourceGraphic" in2="t" scale="60" xChannelSelector="R" yChannelSelector="G"/>
 </filter>
-<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".06"/></pattern>
-<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".92"/><stop offset=".55" stop-color="#000" stop-opacity=".55"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".6"/><stop offset=".55" stop-color="#000" stop-opacity=".25"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>
 <clipPath id="frame"><rect width="1200" height="380" rx="18"/></clipPath>
 </defs>
 <g clip-path="url(#frame)">
 <rect width="1200" height="380" fill="#000"/>
 <!-- slow drifting liquid sheets -->
-<g filter="url(#drift)" opacity=".5">
-  <ellipse cx="200" cy="130" rx="120" ry="55" fill="none" stroke="#fff" stroke-width="1.2">
+<g filter="url(#drift)" opacity=".6">
+  <ellipse cx="200" cy="130" rx="120" ry="55" fill="none" stroke="#2a2a2a" stroke-width="1.2">
   <animateTransform attributeName="transform" type="rotate" values="0 600 190;360 600 190" dur="60s" repeatCount="indefinite"/></ellipse>
-  <ellipse cx="370" cy="250" rx="132" ry="61" fill="none" stroke="#fff" stroke-width="1.2">
+  <ellipse cx="370" cy="250" rx="132" ry="61" fill="none" stroke="#2a2a2a" stroke-width="1.2">
   <animateTransform attributeName="transform" type="rotate" values="0 600 190;360 600 190" dur="74s" repeatCount="indefinite"/></ellipse>
-  <ellipse cx="540" cy="130" rx="144" ry="67" fill="none" stroke="#fff" stroke-width="1.2">
+  <ellipse cx="540" cy="130" rx="144" ry="67" fill="none" stroke="#2a2a2a" stroke-width="1.2">
   <animateTransform attributeName="transform" type="rotate" values="0 600 190;360 600 190" dur="88s" repeatCount="indefinite"/></ellipse>
-  <ellipse cx="710" cy="250" rx="156" ry="73" fill="none" stroke="#fff" stroke-width="1.2">
+  <ellipse cx="710" cy="250" rx="156" ry="73" fill="none" stroke="#2a2a2a" stroke-width="1.2">
   <animateTransform attributeName="transform" type="rotate" values="0 600 190;360 600 190" dur="102s" repeatCount="indefinite"/></ellipse>
-  <ellipse cx="880" cy="130" rx="168" ry="79" fill="none" stroke="#fff" stroke-width="1.2">
+  <ellipse cx="880" cy="130" rx="168" ry="79" fill="none" stroke="#2a2a2a" stroke-width="1.2">
   <animateTransform attributeName="transform" type="rotate" values="0 600 190;360 600 190" dur="116s" repeatCount="indefinite"/></ellipse>
-  <ellipse cx="1050" cy="250" rx="180" ry="85" fill="none" stroke="#fff" stroke-width="1.2">
+  <ellipse cx="1050" cy="250" rx="180" ry="85" fill="none" stroke="#2a2a2a" stroke-width="1.2">
   <animateTransform attributeName="transform" type="rotate" values="0 600 190;360 600 190" dur="130s" repeatCount="indefinite"/></ellipse>
 </g>
-<rect width="1200" height="380" filter="url(#liquid)" opacity=".45"/>
+<rect width="1200" height="380" filter="url(#liquid)"/>
 <rect width="1200" height="380" fill="url(#grid)"/>
 <rect width="864" height="380" fill="url(#fade)"/>
 <!-- scanline -->
-<rect width="1200" height="2" fill="#fff" opacity=".12"><animate attributeName="y" values="-10;390" dur="5s" repeatCount="indefinite"/></rect>
+<rect width="1200" height="2" fill="#fff" opacity=".05"><animate attributeName="y" values="-10;390" dur="5s" repeatCount="indefinite"/></rect>
 <g fill="#fff">
 <text x="64" y="58" font-size="13" letter-spacing="4" fill-opacity=".6">★ BENGALURU ★ BUILDS END TO END ★</text>
 <clipPath id="t1"><rect x="64" y="90" height="109.19999999999999" width="610.4">
