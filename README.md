@@ -1,5 +1,7 @@
 <p align="center"><img src="banner.svg" alt="Tamanna Anand · do your worst" width="100%"></p>
 
+<p align="center"><img src="assets/terminal.svg" alt="i build the whole thing: the pipeline, the model, the cloud, the app. then i test it so it doesn't lie to me." width="100%"></p>
+
 <p align="center">
 <img src="https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript&logoColor=white">
@@ -9,10 +11,7 @@
 <img src="https://img.shields.io/badge/Dart-000?style=for-the-badge&logo=dart&logoColor=white">
 </p>
 
-```
-★ i build the whole thing: the pipeline, the model, the cloud, the app.
-★ then i test it so it doesn't lie to me.
-```
+<p align="center"><img src="assets/wave.svg" alt="" width="100%"></p>
 
 ## ✦ THE WORK
 
@@ -32,6 +31,8 @@
 | ★&nbsp;**[PIXEL&nbsp;PETS](https://github.com/tttamannaanand/pixelpets)** | my two cats and dog, living on top of my screen. | **[→&nbsp;adopt](https://github.com/tttamannaanand/pixelpets)** |
 | ★&nbsp;**[GODMODE](https://github.com/tttamannaanand/godmode)** | cheat codes for students: paid open source, funded research. | **[→&nbsp;unlock](https://github.com/tttamannaanand/godmode)** |
 | ★&nbsp;**[STASH](https://github.com/tttamannaanand/stash)** | 398 free design resources, every licence labelled. | **[→&nbsp;raid](https://github.com/tttamannaanand/stash)** |
+
+<p align="center"><img src="assets/wave.svg" alt="" width="100%"></p>
 
 ## ✦ THE KIT
 
@@ -77,11 +78,6 @@ apps · web · games
 <img src="https://img.shields.io/badge/Figma-000?style=flat-square&logo=figma&logoColor=white">
 </p>
 
-## ✦ NOW
-
-```
-> building a space project with real nasa data. the planets, live.
-> and a space project. pointing code at the sky.
-```
+<p align="center"><img src="assets/wave.svg" alt="" width="100%"></p>
 
 <p align="center">☆ ☆ ☆</p>
